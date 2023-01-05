@@ -29,7 +29,7 @@ loginForm.addEventListener("submit", onLoginSubmit)
 function paintGreetings() {
     const username = localStorage.getItem(USERNAME_KEY)
     greeting.classList.remove(HIDDEN_CLASSNAME)
-    greeting.innerText = `안녕하세요, ${username}님`
+    greeting.innerText = `안녕하세요, ${username}님 🍒`
 }
 
 

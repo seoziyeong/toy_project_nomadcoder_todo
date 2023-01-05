@@ -5,28 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <title>노마드코더 크롬 앱 만들기</title>
 </head>
 <body>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <h2 id="clock">00:00:00</h2>
     <form id="login-form" class="hidden">
-        <input required maxlength="15" type="text" placeholder="What is your name?">
-        <button>Log In</button>
+        <input required maxlength="15" type="text" placeholder="이름이 뭔가요?">
+        <button>로그인</button>
     </form>
     <h1 id="greeting" class="hidden"></h1>
-    <h2 id="clock">00:00:00</h2>
     <form id="todo-form">
         <input type="text" placeholder="할 일을 작성해 주세요!" name="" id="">
     </form>
     <ul id="todo-list"></ul>
     <div id="quote">
-        <span></span>
-        <span></span>
+        <p></p>
+        <p></p>
     </div>
-
     <script src="./js/greeting.js"></script>
     <script src="./js/clock.js"></script>
     <script src="./js/quotes.js"></script>
     <script src="./js/background.js"></script>
     <script src="./js/todo.js"></script>
+    <script src="./js/weather.js"></script>
 </body>
 </html>

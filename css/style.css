@@ -1,3 +1,38 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+* {
+    box-sizing: border-box;
+    color: #fff;
+    text-shadow: 0px 0px 5px rgb(87, 87, 87);
+    font-family: "Pretendard Variable", Pretendard, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px
+}
+
 .hidden {
     display: none;
+}
+
+
+form input,
+form button,
+ul li button {
+    color: #333;
+    text-shadow: none;
+}
+
+#clock {
+    font-size: 6em;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 14%;
+}
+
+#weather {
+    font-size: 14px;
+    text-align: right;
 }
