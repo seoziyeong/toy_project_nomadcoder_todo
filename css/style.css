@@ -10,29 +10,84 @@
 }
 
 body {
-    padding: 20px
+    padding: 20px;
 }
 
 .hidden {
     display: none;
 }
 
+#clock, 
+#login-form, 
+#greeting,
+#todo-form,
+#todo-list-wrap,
+#quote {
+    text-align: center;
+}
 
 form input,
 form button,
 ul li button {
-    color: #333;
+    color: rgb(30, 30, 30);
+    font-weight: 700;
+    border-radius: 4px;
+    border: 0;
     text-shadow: none;
 }
+
+input {
+    height: 40px;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+form button {
+    width: 60px;
+    height: 40px;
+}
+
 
 #clock {
     font-size: 6em;
     font-weight: 300;
-    text-align: center;
-    margin-top: 14%;
+    margin-top: 16%;
+    margin-bottom: 24px;
 }
 
 #weather {
     font-size: 14px;
     text-align: right;
+}
+
+#todo-form input {
+    width: 274px;
+    margin-top: 5px;
+    margin-bottom: 16px;
+}
+#todo-list-wrap {
+
+}
+#todo-list {
+    list-style: none;
+    font-size: 18px;
+}
+
+#todo-list li {
+    margin-bottom: 8px;
+}
+
+#todo-list li span {
+    margin-right: 8px;
+}
+#quote {
+    position: fixed;
+    width:100%;
+    bottom: 40px;
+}
+
+#quote p:last-child {
+    margin-top: 8px;
+    font-size:12px;
+    opacity: 0.7;
 }
